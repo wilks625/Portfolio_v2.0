@@ -1,151 +1,5 @@
-/* * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  background-color: lightgray; 
-  color: white;
-}
-
-header { 
-  color: white;
-  display: inline-block;
-  display: flex;
-  padding: 40px;
-  font-size: 60px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: rgb(36, 34, 34);
-}
-
-
-header nav {
-  display: inline; 
-  float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 35px;
-  color: lightgray;
-}
-
-header nav ul {
-  list-style-type: none;
-  flex: wrap;
-  margin-right: auto;
-  line-height: 110%;
-}
-
-header nav ul li {
-  display: inline-block;
-  margin-right: 10px;
-  padding-left: 60px;
-  color: whitesmoke;
-  flex: wrap 
-  
-}
-
-.nav-button {
-  opacity: 100%;
-  text-decoration: none;
-  list-style-type: none;
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  flex: wrap;
-  display: inline-block
-}
-
-section h2 p {
-  display: inline;
-}
-
-.section-title {
-  margin-left: 2.5%;
-  display: flex;
-  float: left;
-  flex: wrap;
-}
-
-.banner {
-  max-width: 100%;
-  max-height: 25%;
-  height: auto;
-  width: auto;
-  margin:auto;
-  text-align: center;
-}
-
-main {
-  display: inline-block;
-  flex: wrap;
-  
-}
-
-main h2 {
-  font-size: 50px;
-  padding-top: 15px;
-  display: flex;
-  color: rgb(85, 82, 82);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  flex: wrap;
-}
-main p {
-  font-size: 25px;
-  display: inline-block;
-  color: black;
-  margin-right: 350px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding-bottom: 40px;
-  flex: wrap;
-  
-}
-.content-right { 
-  display: flex;
-  padding-left: 20%;
-  float: left;
-  padding-right:10%;
-  flex-wrap: wrap;
-}
-#contact-information {
-  float: left;
-}
-
-.about-me .work .contact-info {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#work{
-  float:left;
-/* } */
-
-/* .img{
-  opacity: 80%; 
-  display: inline;
-  justify-content: space-around;
-  flex: wrap;
-  width: 400px;
-  height: 250px;
-  border: 10px solid grey;
-  
-}
-
-#card-1 {
-  width: 800px; 
-  height: 450px
-  
-}
-
-.img:hover {
-  opacity: 100%; 
-}
-
-aside h2 {
-  display: block;
-} */
-
 
 /* navbar below */
-
 .subnav-hero-section {
   text-align: center;
   background: rgb(40, 40, 40);
@@ -156,11 +10,11 @@ aside h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   height: 200px;
 }
 
@@ -202,7 +56,6 @@ aside h2 {
 }
 
 /* about me card below */
-
 .work-feature-block {
   padding: 10px 0;
   border-top: 1px solid #cacaca;
@@ -218,43 +71,24 @@ aside h2 {
   display: flex;
 }
 
-#headshot { 
+#headshot {
   display: flex;
   flex: wrap;
-  width:300px;
+  width: 300px;
   height: 350px;
   margin: auto;
-  ;
-  /* float: left; */
-  /* margin-left: 200px; */
-  }
+}
 
-  /* work images below */
-  /* .img{
-  opacity: 80%; 
-  display: inline;
-  justify-content: space-around;
-  flex: wrap;
-  width: 400px;
-  height: 250px;
-  border: 10px solid grey;
-  
-} */
-
+/* work images below */
 #work-title {
   text-align: center;
 }
- /* h1 {
-  text-align: center;
-} */
+
 #contact-info {
   text-align: center;
 }
 
-
 /* social media icons */
-/* @ charset "UTF-8"; */
-
 .rounded-social-buttons {
   text-align: center;
 }
@@ -279,10 +113,11 @@ aside h2 {
   margin-bottom: 0.25rem;
 }
 
-.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+.rounded-social-buttons .social-button:hover,
+.rounded-social-buttons .social-button:focus {
   -webkit-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-          transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .rounded-social-buttons .social-button.facebook {
@@ -294,7 +129,8 @@ aside h2 {
   content: "";
 }
 
-.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+.rounded-social-buttons .social-button.facebook:hover,
+.rounded-social-buttons .social-button.facebook:focus {
   color: #3b5998;
   background: #fefefe;
   border-color: #3b5998;
@@ -309,7 +145,8 @@ aside h2 {
   content: "";
 }
 
-.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+.rounded-social-buttons .social-button.twitter:hover,
+.rounded-social-buttons .social-button.twitter:focus {
   color: #55acee;
   background: #fefefe;
   border-color: #55acee;
@@ -324,7 +161,8 @@ aside h2 {
   content: "";
 }
 
-.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+.rounded-social-buttons .social-button.linkedin:hover,
+.rounded-social-buttons .social-button.linkedin:focus {
   color: #007bb5;
   background: #fefefe;
   border-color: #007bb5;
@@ -339,7 +177,8 @@ aside h2 {
   content: "";
 }
 
-.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+.rounded-social-buttons .social-button.youtube:hover,
+.rounded-social-buttons .social-button.youtube:focus {
   color: #bb0000;
   background: #fefefe;
   border-color: #bb0000;
@@ -354,7 +193,8 @@ aside h2 {
   content: "";
 }
 
-.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+.rounded-social-buttons .social-button.instagram:hover,
+.rounded-social-buttons .social-button.instagram:focus {
   color: #125688;
   background: #fefefe;
   border-color: #125688;
@@ -369,7 +209,8 @@ aside h2 {
   content: "";
 }
 
-.rounded-social-buttons .social-button.pinterest:hover, .rounded-social-buttons .social-button.pinterest:focus {
+.rounded-social-buttons .social-button.pinterest:hover,
+.rounded-social-buttons .social-button.pinterest:focus {
   color: #cb2027;
   background: #fefefe;
   border-color: #cb2027;
@@ -384,7 +225,8 @@ aside h2 {
   content: "";
 }
 
-.rounded-social-buttons .social-button.google-plus:hover, .rounded-social-buttons .social-button.google-plus:focus {
+.rounded-social-buttons .social-button.google-plus:hover,
+.rounded-social-buttons .social-button.google-plus:focus {
   color: #dd4b39;
   background: #fefefe;
   border-color: #dd4b39;
@@ -399,7 +241,8 @@ aside h2 {
   content: "";
 }
 
-.rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
+.rounded-social-buttons .social-button.github:hover,
+.rounded-social-buttons .social-button.github:focus {
   color: #000000;
   background: #fefefe;
   border-color: #000000;
@@ -414,7 +257,8 @@ aside h2 {
   content: "";
 }
 
-.rounded-social-buttons .social-button.tumblr:hover, .rounded-social-buttons .social-button.tumblr:focus {
+.rounded-social-buttons .social-button.tumblr:hover,
+.rounded-social-buttons .social-button.tumblr:focus {
   color: #32506d;
   background: #fefefe;
   border-color: #32506d;
@@ -423,7 +267,7 @@ aside h2 {
 /* hover cards for work section */
 .card {
   display: flex;
-  display: inline
+  display: inline;
 }
 
 .card-product-hover-title {
@@ -440,8 +284,8 @@ aside h2 {
 
 .card-product-hover-details {
   -webkit-flex: 1 0 auto;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
   padding: 1rem;
 }
 
@@ -467,11 +311,11 @@ aside h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 .card-product-hover-icons a i {
@@ -494,8 +338,8 @@ aside h2 {
   margin: 2px;
   opacity: 0;
   -webkit-transform: translateY(50%);
-      -ms-transform: translateY(50%);
-          transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
   transition: all 0.35s ease;
 }
 
@@ -504,8 +348,8 @@ aside h2 {
   transition: all 0.35s ease;
   opacity: 1;
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
 }
 
 .card-product-hover:hover a:nth-child(2),
@@ -520,7 +364,6 @@ aside h2 {
 
 /* image hover link block */
 .image-hover-wrapper {
-  /* position: absolute; */
   display: inline;
   flex: wrap;
 }
@@ -563,8 +406,8 @@ aside h2 {
 .image-hover-wrapper a .image-hover-wrapper-reveal:hover p {
   opacity: 1;
   -webkit-transform: translateY(-100%);
-      -ms-transform: translateY(-100%);
-          transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
   transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   transition-delay: 0.25s;
 }
@@ -578,8 +421,6 @@ aside h2 {
   width: 100%;
   transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-
-
 
 .image-hover-wrapper a .fa {
   font-size: 24px;
@@ -595,34 +436,26 @@ aside h2 {
   position: relative;
   top: 25%;
   width: 400px;
-  
+
   z-index: 10;
 }
 
-
-
-
-
-
 .img {
-  /* opacity: 80%;  */
   display: inline;
   justify-content: space-around;
-  /* flex: wrap; */
   width: 400px;
   height: 250px;
   border: 10px solid grey;
 }
 
 .img:hover {
-  opacity: 80%; 
+  opacity: 80%;
 }
 
 #work-card {
   display: inline;
   margin-left: auto;
   margin-right: auto;
-  /* width: 50%; */
 }
 
 #about-me-card {
@@ -630,39 +463,27 @@ aside h2 {
   flex: wrap;
 }
 
-
-
-
-
-
-
-
-
-
 /* Small only */
 @media screen and (max-width: 50.9375em) {
   #about-me-card {
     text-align: center;
-    /* padding: 100px; */
   }
 
-  #headshot-card { 
+  #headshot-card {
     display: flex;
-    width:300px;
+    width: 300px;
     height: 350px;
     justify-content: center;
     align-items: center;
-    
     margin-left: 30px;
-    }
+  }
 
-    #about-me-card {
-      text-align: center;
-    }
+  #about-me-card {
+    text-align: center;
+  }
 
   .subnav-hero-section {
     height: 150px;
-    padd
   }
   #about-me-title {
     display: inline;
@@ -673,22 +494,33 @@ aside h2 {
 
   .content-right {
     margin: 5px;
-    mar
   }
-
-  
 }
 
 /* Medium and up */
-@media screen and (min-width: 40em) {}
+@media screen and (min-width: 40em) {
+}
 
 /* Medium only */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  #about-me {
+    display: block;
+  }
+}
 
 /* Large and up */
-@media screen and (min-width: 64em) {}
+@media screen and (min-width: 64em) {
+  #headshot-card {
+    display: flex;
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  }
 
-
-
-
-
+  #about-me {
+    /* display: flex; */
+    padding-left: 50px;
+  }
+}
