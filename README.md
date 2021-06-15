@@ -12,5 +12,5 @@ I have updated my linkedIn profile by filling in the bio summary section as well
 Github Repo: https://github.com/wilks625/Portfolio_v2.0
 Deployed App: https://wilks625.github.io/Portfolio_v2.0/
 
-![Screen Shot 2021-04-17 at 8 16 05 PM](https://user-images.githubusercontent.com/76915726/115130025-e71aee00-9fb9-11eb-89b2-d11a33ba426b.png)
-![Screen Shot 2021-04-17 at 8 18 07 PM](https://user-images.githubusercontent.com/76915726/115130045-0c0f6100-9fba-11eb-9659-505d299ded88.png)
+![Screen Shot 2021-06-15 at 6 23 19 PM](https://user-images.githubusercontent.com/76915726/122131381-1a85c780-ce07-11eb-89c6-f99bcb0ef33a.png)
+![Screen Shot 2021-06-15 at 6 23 53 PM](https://user-images.githubusercontent.com/76915726/122131387-1c4f8b00-ce07-11eb-8798-028c28a7220b.png)
