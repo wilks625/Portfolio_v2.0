@@ -1,4 +1,4 @@
-# Unit 08 Project 1 Homework: Professional Materials
+# 16 Project 2: Professional Materials
 This portfolio has been updated from the previous submission during week 2 of the coding bootcamp. The work section has been updated to include Project 1 as well as more homework assignments that have been completed during the coding bootcamp.
 
 I also took advantage of this opportunity to correct the responsiveness of the webpage as well as to reorganize how the information is presented to the user. I used foundation as my framework. Instead of all of the information being displaying on one page, the user can now use the navigation bar to navigate to the contact information page as well as to access my updated resume. There also footer links for facebook, github, and linkedIn.
