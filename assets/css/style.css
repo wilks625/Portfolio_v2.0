@@ -66,6 +66,7 @@
   display: inline;
   margin: auto;
   padding: 10px 0;
+  box-shadow: 10px 10px 5px #ccc;
 }
 .work-feature-block-header {
   display: flex;
@@ -445,20 +446,24 @@
   justify-content: space-around;
   width: 400px;
   height: 250px;
-  border: 10px solid grey;
+  border: 5px solid rgb(53, 52, 52);
 }
 
 .img:hover {
   opacity: 80%;
 }
 
-#work-card {
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
+#work-card-container {
+  display: block;
+  
+}
+.work-card {
+  display: inline-block;
+  line-height: 255px;
 }
 
 #about-me-card {
+  justify-content: center;
   display: flex;
   flex: wrap;
 }
@@ -475,7 +480,7 @@
     height: 350px;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
+    /* margin-left: 30px; */
   }
 
   #about-me-card {
@@ -492,7 +497,7 @@
     margin-bottom: 5rem;
   }
 
-  .content-right {
+  .work-cards {
     margin: 5px;
   }
 }
@@ -523,4 +528,8 @@
     /* display: flex; */
     padding-left: 50px;
   }
+}
+
+footer {
+  padding: 10px;
 }
